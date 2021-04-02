@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8">
+    <title>나를 소개합니다.</title>
+
+</head>
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">자기소개</a></li>
+            <li role="presentation"><a href="#">일기장</a></li>
+            <li role="presentation"><a href="#">목표</a></li>
+        </ul>
+    <h1>유다영을 소개합니다.</h1>
+    <h2>소프트웨어 20학번 2학년</h2><br>
+    <form action="url" method="POST">
+        <div class="form-group">
+            <label for="id">아이디: </label>
+            <input id = "id" class="form-control" type = "text" name = "id" value="user">
+        </div>
+        <div>
+            <div class="form-group"></div>
+            <label for="pw">비밀번호: </label>
+            <input password = "pw" class="form-control" type = "password" name = "pw" placeholder="비밀번호를 입력하세요.">
+            <br>
+            <button type = "button" class="btn btn-success">제출</button>
+            
+        </div>
+        
+    </form>
+    
+    <div>
+        <h2>날 대표하는 사진</h2>
+        <img src="./능히할수있다.jpg" alt="할수있다" width="300"><br>
+        <h2>내가 제일 좋아하는 노래</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/THeLVhU53ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+   
+    
+    <div>
+        <form action = "diary">
+            <h2>나의 일기장</h2>
+        <label for = "text">제목: </label>
+        <input text = "title" type = "text" name =" title">
+        <br>
+        <label for = "mood">나의 기분: </label>
+        <select name = "mood" id = "mood">
+            <option value = "fine">좋았음</option>
+            <option value = "good">보통이었음</option>
+            <option value = "tired">힘들었음</option>
+            <option value = "bad">안 좋았음</option>
+        </select>
+    </div>
+    <div>
+        <br>
+        <label for = "memo"></label>
+        <textarea name = "memo" id = "memo" cols="30" rows="10">
+        </textarea>
+        <br>
+        <input type = "submit">
+    </form>
+        
+    
+    </div>
+    <div>
+        <h2>올해 이루고 싶은 것들</h2>
+        <ol>
+            <li>멋사 완벽 수료</li>
+            <li>건강한 삶을 위해 노력하기</li>
+            <li>파이썬 마스터</li>
+            <li>토익 800점 이상</li>
+        </ol>
+    </div>
+    <hr>
+    <a href="http://github.com/allzeroyou" target="blank">나의 깃 주소</a>
+    </div>
+</body>
+</html>
